@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexOS - Your Future OS</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #fff;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 50px 20px;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .feature:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .feature h3 {
+            margin: 0;
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+        }
+
+        .feature p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.9);
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NexOS</h1>
+        <p>Experience the perfect blend of Windows with a modern touch.</p>
+    </header>
+    <main>
+        <h2>Features</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Classic Design</h3>
+                <p>Relive the classic Windows interfaces, modernized for today.</p>
+            </div>
+            <div class="feature">
+                <h3>Highly Customizable</h3>
+                <p>Tailor your experience with personal touches and intuitive settings.</p>
+            </div>
+            <div class="feature">
+                <h3>Performance Optimized</h3>
+                <p>Enjoy a lightweight OS that runs seamlessly on modern and older hardware.</p>
+            </div>
+            <div class="feature">
+                <h3>Enhanced Productivity</h3>
+                <p>Streamline your workflow with innovative features and tools.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 NexOS. All rights reserved. <a href="#">Learn more</a></p>
+    </footer>
+</body>
+</html>
